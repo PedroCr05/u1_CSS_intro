@@ -122,7 +122,7 @@ What do you think we'd need to do to make it Red instead?
 Let's style the `nav` element. Add the following to your CSS file:
 
 ```css
-nav {
+header {
   background-color: #b39ddb;
   padding: 10px
 }
@@ -144,11 +144,11 @@ You'll notice that our content is not very pretty, let's fix that.
 Add in the following styles:
 
 ```css
-ul {
-  list-style: none;
+h1{
+  letter-spacing:3px;
 }
 
-li {
+h2 {
  color: green;
  letter-spacing: 5px
 }
