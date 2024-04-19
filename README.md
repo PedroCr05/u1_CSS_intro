@@ -169,7 +169,14 @@ To target an element with a specific ID, we use a #
 
 Because CSS is "Cascading", it can become problematic when targets are selected in multiple ways. We usually want to work with the most general first, then specify more and more as we go down. Use the acronym ICE for this, Id Class Element, in terms of specifcity
 
-We want to make all of our buttons a certain size, make only the login buttons green, and give a yellow border to our log out button
+We want to make all of our buttons a certain size, make only the login buttons green, and give a yellow border to our log out button.
+
+
+We have the ability to give as many attributes to each element that we want as long as we follow the rules. We also can assign multiple classes to elements with something called "Polymorphism" that we'll discuss later in our lesson on Object Oriented Programming
+
+
+Again, don't worry about memorizing every single CSS element, what matters more is finding out how to use them, and understanding the rules of the language.
+
 
 Lets first target all buttons, then only those of our login class, and finally our individual log in button
 
@@ -200,37 +207,7 @@ Notice how all of our buttons have taken the respective sizes. However, only the
 Can you think of any examples of something similar you have seen across the web?
 
 
-Again, don't worry about memorizing every single CSS element, what matters more is finding out how to use them, and understanding the rules of the language.
 
-Lets take a few more minutes to play with some text. In our HTML file, add this code wherever you'd like
-
-```
-<h3> I am a generic H3 </h3>
-<h3 class="underlined"> I am an H3 with class </h3>
-<h3 class="underlined" id="spaced"> I am an H3 with class and an ID </h3>
-
-```
-
-We have the ability to give as many attributes to each element that we want as long as we follow the rules. We also can assign multiple classes to elements with something called "Polymorphism" that we'll discuss later in our lesson on Object Oriented Programming
-
-
-Lets style these H3's!
-
-```
-h3 {
-font-size: 36px
-}
-
-.underlined {
-text-decoration: underline;
-color: #FF0033
-}
-
-#spaced {
-letter-spacing: 10px
-}
-
-```
 
 There is a lot that we can do with CSS! The best way to learn is to practice. Now, lets dive a bit deeper and find some more ways we can style up our content
  
