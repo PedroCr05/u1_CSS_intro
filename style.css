@@ -1,0 +1,35 @@
+body {
+    background-color:rgba(0, 255, 255, 0.199)
+}
+
+header {
+    background-color: #00ccff;
+    padding: 25px;
+}
+
+h2, h3 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2em;
+    text-decoration: line-through;
+    font-family: Georgia;
+}
+
+h2 {
+    font-size: small;
+}
+
+button {
+    border: 3px dotted rgb(100, 75, 29);
+}
+
+.Button-Container {
+    background-color: green;
+}
+
+.Shopping-Button {
+    background-color: pink;
+}
+
+#CheckOut {
+    border-radius: 20%;
+}
